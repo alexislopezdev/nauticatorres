@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*--------------------header--------------------*/
+.navbar__links {
+  display: none;
+}
+
+
+header {
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  margin: 0px 
+}
+
+.navbar {
+  padding: 20px 0px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: space-around;
+}
+
+.navbar__logo {
+  width: 140px;
+  height: 60px;
+}
+
+/*--------------------hero--------------------*/
+
+
+.hero{
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+}
+
+.navbar__images{
+    width: 100vw;
+    height: auto;
+    
+}
