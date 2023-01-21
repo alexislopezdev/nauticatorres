@@ -1,24 +1,35 @@
 :root {
-    --font-color:#212121;
+  --font-color: #212121;
 }
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 /*--------------------header--------------------*/
 .navbar__links {
   display: none;
 }
+.navbar__close {
+  display: none;
+}
+.navbar__close {
+  width: 40px;
+  height: 40px;
+  opacity: 80%;
+}
 
+.navbar__links a {
+  color: rgb(143, 143, 143);
+}
 
 header {
   background: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   width: 100vw;
-  margin: 0px 
+  margin: 0px;
 }
 
 .navbar {
@@ -36,22 +47,20 @@ header {
 
 /*--------------------hero--------------------*/
 
-
-.hero{
-    margin-top: 100px;
-    width: 100vw;
-    height: auto;
+.hero {
+  margin-top: 100px;
+  width: 100vw;
+  height: auto;
 }
 
-.navbar__images{
-    width: 100vw;
-    min-height: auto;
-    
+.navbar__images {
+  width: 100vw;
+  min-height: auto;
 }
 
 /*--------------------main--------------------*/
 
-.main__title{
+.main__title {
   padding: 20px;
   font-size: 3.2rem;
   text-transform: uppercase;
@@ -59,58 +68,56 @@ header {
   color: var(--font-color);
 }
 
-.main__card{
+.main__card {
   margin: 20px auto;
   width: 80vw;
   border: 1px solid rgba(121, 121, 121, 0.363);
   padding: 20px;
-  
 }
-
-.main__images{
+.main__images {
   width: 70vw;
   height: auto;
 }
-.main__price{
+.main__price {
   font-size: 2rem;
 }
 
-.main__link{
+.main__link {
   text-decoration: none;
   font-size: 20px;
   color: #212121;
   font-weight: 600;
   cursor: pointer;
 }
-.main__button{
+.main__button {
   margin-top: 10px;
   width: 120px;
   height: 32px;
   font-size: 1rem;
-  font-weight:lighter;
-  background:#3483fa;
+  font-weight: lighter;
+  background: #3483fa;
   color: white;
   border-radius: 5px;
   border: none;
 }
 
 /*--------------------article--------------------*/
-.main__title--article{
- text-align: center;
+.main__title--article {
+  text-align: center;
 }
-.main__paragraph{
+.main__paragraph {
   font-size: 2rem;
   color: #3483fa;
   text-align: center;
   font-weight: bold;
 }
-.main__button--article{
+.main__button--article {
   display: block;
   margin: 30px auto;
   width: 140px;
   border-radius: 2px;
 }
-.main__video{
+.main__video {
   width: 90%;
   height: 200px;
   display: block;
@@ -118,52 +125,51 @@ header {
   border-radius: 2px;
 }
 /*--------------------catalogue--------------------*/
-.catalogue{
+.catalogue {
   position: relative;
-
 }
-.container__catalogue{
+.container__catalogue {
   height: 850px;
 }
-.catalogue__image{
+.catalogue__image {
   margin-top: 40px;
   width: 100vw;
   height: auto;
 }
 
-.main__title--catalogue{
-  font-size:1.5rem;
+.main__title--catalogue {
+  font-size: 1.5rem;
   position: absolute;
   bottom: 30%;
   text-align: center;
-  color:white;
+  color: white;
   letter-spacing: 2px;
 }
 /*--------------------footer--------------------*/
 
-.footer{
-height: 1100px;
-text-align: left;
-padding-top: 80px;
-padding-left: 20px;
-background: black;
+.footer {
+  height: 1100px;
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 20px;
+  background: black;
 
 }
-.footer__title{
+.footer__title {
   margin: 40px 0px;
 }
-h2{
-  color:white;
+h2 {
+  color: white;
   margin: 20px 0px;
 }
-h2 span{
-  color:#3483fa
+h2 span {
+  color: #3483fa;
 }
-a.logo{
+a.logo {
   font-size: 1.6rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: #cecece;
   display: block;
@@ -171,20 +177,112 @@ a{
   font-size: 1.1rem;
 }
 
-
-p{
-  color:#aaaaaa;
+p {
+  color: #aaaaaa;
   padding-top: 20px;
   font-weight: 500;
 }
 
-.col-md{
+.col-md {
   display: flex;
   flex-direction: column;
-  align-content:space-around;
+  align-content: space-around;
   width: 80%;
   height: 220px;
   margin-bottom: 30px;
 }
 
+/*--------------------catalogo main--------------------*/
+.catalogo__title{
+  margin-left: 20px;
+}
+.main__catalogo{
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 90vw;
+  border-radius: 4px;
+  background:#f1eeeeec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  
+  }
+.input__main{
+  width: 200px;
+  height: 36px;
+}
+.button__main{
+  width: 36px;
+  height: 36px;
+}
 
+.link__main{
+  color: #3483fa;
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 16px;
+  
+}
+
+.img__main{
+  width: 18px;
+  height: auto;
+}
+.catalogo__container{
+  margin-top: 360px;
+}
+.list__catalogo li a{
+  color: #3483fa;
+  padding-top: 10px;
+  font-size: 16px;
+}
+ul li {
+  list-style: none;
+}
+.list__catalogo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+/*--------------------la nautica--------------------*/
+.img__nautica{
+  width: 100vw;
+  height: auto;
+  margin-top: 80px;
+}
+.lanautica{
+  width: 100vw;
+}
+
+.footer__servicios{
+  margin-top: 100px;
+}
+.footer__contacto{
+  margin-top: 100px;
+}
+/*--------------------queries--------------------*/
+
+
+@media (min-width: 1024px) {
+ 
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+  }
+  .navbar__images {
+    width: 400px;
+    height: auto;
+  }
+  .main__title {
+    text-align: center;
+  }
+
+  .catalogue {
+    position:absolute;
+  }
+  
+}
