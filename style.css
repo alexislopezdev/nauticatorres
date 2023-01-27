@@ -58,6 +58,7 @@ header {
   min-height: auto;
 }
 
+
 /*--------------------main--------------------*/
 
 .main__title {
@@ -125,15 +126,16 @@ header {
   border-radius: 2px;
 }
 /*--------------------catalogue--------------------*/
-.catalogue {
-  position: relative;
-}
+
 .container__catalogue {
-  height: 850px;
+  height: auto;
+  width: 95vw;
+  margin: 0px auto;
+  
 }
 .catalogue__image {
   margin-top: 40px;
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -264,25 +266,101 @@ ul li {
   margin-top: 100px;
 }
 /*--------------------queries--------------------*/
+@media (min-width: 768px) {
+ 
+  body{
+   width: 100vw;
+  }
+  .hero {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 0px;
+ }
+ .navbar__images {
+   width: 100%;
+   height: auto;
+ }
+ .hero__links{
+   display: flex;
+   justify-content: space-evenly;
+ 
+ }
+ 
+ .main{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   width: 80%;
+   margin: 0px auto;
+ 
+ }
+ .main__card {
+   margin: 20px auto;
+   width: 40vw;
+   padding: 30px;
+ }
+ .main__images {
+   width: 35vw;
+   height: auto;
+ }
+
+ .footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 500px;
+ }
+ 
+ }
+
 
 
 @media (min-width: 1024px) {
- 
+  body{
+    background: #212121;
+    width: 100vw;
+   }
   .hero {
+    margin: 96px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0px;
+  }
+  .hero__links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
   }
   .navbar__images {
-    width: 400px;
+    width: 100%;
     height: auto;
+    
   }
+  
   .main__title {
     text-align: center;
   }
 
-  .catalogue {
-    position:absolute;
+  .footer{
+    padding: 140px;
+  }
+  .navbar__links {
+    width: 40%;
+    display:flex;
+    justify-content: space-evenly;
+  } 
+  .navbar__links a{
+    font-weight:bold;
+    color: #0000007e;
+  }
+
+  .navbar__hamburguer{
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
   }
   
 }
+
+

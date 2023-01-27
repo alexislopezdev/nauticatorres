@@ -1,4 +1,4 @@
-fetch("http://localhost:1337/api/categories")
+/*fetch("http://localhost:1337/api/categories")
   .then((responce) => responce.json())
   .then((data) => {
     let name = data.data[0].attributes.name;
@@ -11,7 +11,7 @@ fetch("http://localhost:1337/api/categories")
 
 
 
-  function wrapping(gifts) {
+  /*function wrapping(gifts) {
     let papel = "";
     for (let i = 0; i < gifts.length; i++) {
       papel +=  gifts[i] + "<br>";
@@ -23,3 +23,5 @@ fetch("http://localhost:1337/api/categories")
   const wrapped = wrapping(gifts);
   
   console.log(wrapped);
+*/
+

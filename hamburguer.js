@@ -10,6 +10,8 @@ hamburguer.addEventListener("click", () => {
 });
 
 closeNavbar.addEventListener("click", () => {
-  console.log(hamburguer2);
+  console.log("hola");
   hamburguer2.style.display = "none";
+  
+  
 });
