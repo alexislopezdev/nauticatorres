@@ -265,6 +265,77 @@ ul li {
 .footer__contacto{
   margin-top: 100px;
 }
+
+.opinions{
+  display: flex;
+  flex-direction: column;
+}
+.image__opinions{
+  border-radius: 10px;
+  width:320px;
+  height: auto;
+}
+
+
+/*--------------------Contacto--------------------*/
+
+.form__card{
+border: 1px solid rgba(128, 128, 128, 0.212);
+padding: 20px;
+width: 80vw;
+margin: 40px auto;
+border-radius: 5px;
+}
+
+.form__card a{
+  display:inline-block;
+}
+.form__card p{
+  font-weight:600;
+  color:black;
+}
+ion-icon{
+  color: #3483fa;
+  font-size: 26px;
+}
+.container__form{
+  margin-top: 200px;
+}
+.form__map{
+  display: flex;
+  justify-content: center;
+
+}
+
+/*--------------------Whatsapp--------------------*/
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .btn-wsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
+}
+
+
 /*--------------------queries--------------------*/
 @media (min-width: 768px) {
  
@@ -308,16 +379,28 @@ ul li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 500px;
+  gap: 20px;
+  
  }
+ .footer__title {
+  margin: 0px
  
  }
+ .container__form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  gap: 10px;
+}
+.form__card{
+  width: 40vw;
+  }
 
-
+}
 
 @media (min-width: 1024px) {
   body{
-    background: #212121;
-    width: 100vw;
+    width:100vw;
    }
   .hero {
     margin: 96px 0px;

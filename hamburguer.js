@@ -15,3 +15,13 @@ closeNavbar.addEventListener("click", () => {
   
   
 });
+
+
+const filterLancha = document.getElementById("#check__lancha");
+const filterId = document.getElementById("#card__id");
+
+filterLancha.addEventListener("click",() => {
+  filterId.style.display = "none";
+
+  console.log("Hola",filterId);
+});
