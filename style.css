@@ -21,7 +21,9 @@
 }
 
 .navbar__links a {
-  color: rgb(143, 143, 143);
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.37);
+  font-weight: 600;
 }
 
 header {
@@ -33,6 +35,7 @@ header {
 }
 
 .navbar {
+  background: #c7bebe17;
   padding: 20px 0px;
   display: grid;
   align-items: center;
@@ -101,6 +104,8 @@ header {
   border-radius: 5px;
   border: none;
 }
+
+
 
 /*--------------------article--------------------*/
 .main__title--article {
@@ -275,6 +280,20 @@ ul li {
   width:320px;
   height: auto;
 }
+.container__nosotros{
+  background: #3483fa;
+  margin: 0px auto;
+  width: 30vw;
+  height: 500px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container__nosotros p{
+  color: #FFF;
+  font-size: 1.1rem;
+  width: 30vw;
+  
+}
 
 
 /*--------------------Contacto--------------------*/
@@ -423,7 +442,7 @@ ion-icon{
   }
 
   .footer{
-    padding: 140px;
+    padding: 40px;
   }
   .navbar__links {
     width: 40%;
@@ -442,6 +461,10 @@ ion-icon{
   .navbar {
     display: flex;
     align-items: center;
+  }
+  .main__video {
+    height: 600px;
+    
   }
   
 }
