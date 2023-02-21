@@ -8,7 +8,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./images/Nautica torres logo.png"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,8 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./carrusel.css" />
+  
   </head>
   <body>
 
@@ -44,22 +49,57 @@
       </nav>
     </header>
     <section class="lanautica">
-      <img class="img__nautica" src="./images/lancha1.jpg" />
-      
-      <h1>Torres</h1>
+      <img class="img__nautica" src="./images/328703182_1154472355240684_3773054542389561023_n.jpg" />
+      <h2 class="ftco-heading-2"><a href="#" class="logo logo--nautica" >Nautica<span class="text-primary">Torres</span></a></h2>
       <div class="container__nosotros">
-      <p>
-        Empresa familiar dedicada a la venta de embarcaciones y motores navales. Les ofrecemos a nuestros clientes todos los tipos de embarcaciones (lanchas; semirrigidos; botes ; canoas) y tambien motores navales fuera de borda de todas las marcas, siempre ofreciendo el mejor asesoramiento y el mejor precio a nuestros clientes.
-                Nuestros servicios abarcan todo el territorio Argentino ofreciendo en cada oportunidad la solución y ayuda a nuestros clientes sin importar donde estén ubicados.
-                
-      </p>
-      <p>"NAUTICA TORRES ES SINÓNIMO DE COMPROMISO CON NUESTROS CLIENTES, ATENCIÓN PERSONALIZADA Y TRANSPARENCIA EN TODOS NUESTROS SERVICIOS."
-      </p>
-    </div>
+        <h1>Quienes somos ? <ion-icon class="ribbon__title" name="globe-outline"></ion-icon></h1>
+        <p class="paragraph__nosotros">
+          Empresa familiar dedicada a la venta de embarcaciones y motores navales. Les ofrecemos a nuestros clientes todos los tipos de embarcaciones (lanchas; semirrigidos; botes ; canoas) y tambien motores navales fuera de borda de todas las marcas, siempre ofreciendo el mejor asesoramiento y el mejor precio a nuestros clientes.
+          Nuestros servicios abarcan todo el territorio Argentino ofreciendo en cada oportunidad la solución y ayuda a nuestros clientes sin importar donde estén ubicados.<ion-icon class="ribbon" name="ribbon-outline"></ion-icon>
+                  
+        </p>
+        <hr>
+        <p class="paragraph__nosotros">"NAUTICA TORRES ES SINÓNIMO DE COMPROMISO CON NUESTROS CLIENTES, ATENCIÓN PERSONALIZADA Y TRANSPARENCIA EN TODOS NUESTROS SERVICIOS."<ion-icon class="ribbon" name="shield-checkmark-outline"></ion-icon>
+        </p>
+      </div>
+      <h2 style="color: rgb(2, 2, 2); text-align: center;" > 4.9⭐⭐⭐⭐Comentarios</h2>
+      <a class="link__comentarios" href="https://g.co/kgs/k7UtyZ"><img class="img__comentarios" src="https://lh3.googleusercontent.com/a-/AD5-WCmvIGmFsuxR6fWp9Op7HdOVZeKkimfh_fFjihsw=w120-h120-p-rp-mo-br100"/>Agoval <br>Servicios y Reparaciones.</a>
+      <a class="link__comentarios" href="https://g.co/kgs/Acc1dt"><img class="img__comentarios" src="https://lh3.googleusercontent.com/a/AEdFTp7g1BzDNRIBz79TmdzhQujoOnW6psWlNjd08q8_=w120-h120-p-rp-mo-br100"/>Julián Sobrero.</a>
+      <a class="link__comentarios" href="https://g.co/kgs/6QRT9S"><img class="img__comentarios" src="https://lh3.googleusercontent.com/a-/AD5-WCnmrDaKEhrj1nDCK--EP2yWszqSQARDRq4ckBrf1IQ=w120-h120-p-rp-mo-ba3-br100"/>marcelo furque.</a>
+      
+
+      <div class="wrapper">
+        <div class="box1">
+          <iframe class="iframe"
+          width="560" height="315"
+          src="https://www.youtube.com/embed/OJ_hxSYF6dw" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+        </div>
+        <div class="box2">
+          <iframe class="iframe"
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/4ffJS2v9uVw" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+      
+      
+      
     </section>
-    <main class="opinions">
+    <!--
+      <main class="opinions">
       <a href="https://www.google.com.ar/search?q=nautica+torres&sxsrf=AJOqlzUcMzjJmeM3aA1vmpsZ_16yu1JykA%3A1674789565932&source=hp&ei=vULTY7P6NpKR1sQPpqWw0A4&iflsig=AK50M_UAAAAAY9NQzdF_aS2SIMaB0FvIywYeX1x7HT_c&gs_ssp=eJzj4tVP1zc0zDDOzctKNzYwYLRSNaiwNE1KTjRNNbc0TzM2NU81tTKosDAyNjVLMTcxMjUzTU1LNfLiy0ssLclMTlQoyS8qSi0GAKwYFH4&oq=nautica+&gs_lcp=Cgdnd3Mtd2l6EAEYATIKCC4QxwEQrwEQJzIKCC4QrwEQxwEQJzIECCMQJzIRCC4QgAQQsQMQgwEQxwEQrwEyCAgAEIAEELEDMgsILhCABBDHARCvATILCC4QgAQQxwEQrwEyCwguEIAEEMcBEK8BMgsILhCABBDHARCvATILCC4QgAQQxwEQrwE6BwgjEOoCECc6DQguEMcBEK8BEOoCECc6EQguEIAEELEDEIMBEMcBENEDOgsILhCABBCxAxCDAToFCC4QgAQ6CAguELEDEIMBOgsIABCABBCxAxCDAToFCAAQgAQ6BAgAEEM6BAguEEM6CgguEMcBENEDEEM6DQguELEDEIMBENQCEEM6CAguEIAEELEDOgoIABCxAxCDARBDOgcIABCxAxBDUPEFWPgVYIEpaAFwAHgAgAFhiAG8BZIBATiYAQCgAQGwAQo&sclient=gws-wiz#lrd=0x95bca5e797f357e5:0x82356d742565efe2,1,,,,"><img class="image__opinions" src="./images/Screenshot 2023-01-27 002241.png"></a>
-    </main>    
+    </main>  
+      --->
+      
 
     <footer class="footer footer__lanautica">
       
@@ -122,5 +162,7 @@ Copyright  Nautica Torres 2020 Derechos Reservados</a>
     
     <script src="./index.js"></script>
     <script src="./hamburguer.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
