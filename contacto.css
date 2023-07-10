@@ -1,0 +1,42 @@
+#grid {
+    height: 100vh;
+    transition: 500ms;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+    background: rgba(255, 255, 255, 0.397);
+  }
+  
+  :where(.left, .center, .right) {
+    background: #ffffff;
+    transition: 300ms;
+    background: wheat;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: contain;
+    
+  }
+  
+  :where(.left, .center, .right):hover {
+    background:url(./images/entradanautica.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  #grid:has(.left:hover) {
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+  }
+  
+  #grid:has(.center:hover) {
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    background:url(./images/entradanautica2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  #grid:has(.right:hover) {
+    grid-template-columns: 0.5fr 0.5fr 2fr;
+  }
+  
+  
+  
+  

@@ -18,12 +18,17 @@
     />
     <title>Nautica Torres</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./queries.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
   </head>
   <body>
+
+    <!-----------------header-------------------->
+
     <header class="header">
       <nav class="navbar" id="#navbar">
-        <img src="./images/Nautica torres logo.png" class="navbar__logo" />
+        <img src="./images/Nautica torres logo.png" data-aos="fade-right" class="navbar__logo" />
         <a href="#" id="#navbar__link" class="navbar__link">
           <img src="./images/hamburguer.svg" class="navbar__hamburguer" id="#close__hamburguer" />
         </a>
@@ -43,35 +48,32 @@
       </nav>
     </header>
 
-    <section class="hero">
-      <a href="./catalogo.html" class="hero__links">
-        <img
-          src="./images/Fotos 9 unidades/Component 3.png"
-          class="navbar__images"
-        />
-      </a>
-      <a href="./catalogo.html" class="hero__links">
-        <img
-          src="./images/Fotos 9 unidades/Component 4.png"
-          class="navbar__images"
-        />
-      </a>
-      <a href="./catalogo.html" class="hero__links">
-        <img
-        src="./images/Fotos 9 unidades/Component 3.png"
-          class="navbar__images"
-        />
-      </a>
-      <a href="./catalogo.html" class="hero__links">
-        <img
-        src="./images/Fotos 9 unidades/Component 4.png"
-          class="navbar__images"
-        />
-      </a>
-    </section>
+    <!-----------------header end-------------------->
+
+    <!-----------------banner-------------------->
+
+    <img src="./images/Component 3.png" id="imagemovil" class="imagebanner">
 
     <main>
-      <h1 class="main__title">Ultimos ingresos</h1>
+
+      <!--<div class="main__header">
+        <div class="main__headercard">
+          <img class="imageheader" src="./images/credit-card.png">
+          <p class="pargraphheader">¡Todas las ajetas de credito!</p>
+          <img class="imageheader" src="./images/delivery.png">
+          <p class="pargraphheader">¡Todas las ajetas de credito!</p>
+          <img class="imageheader" src="./images/maps-and-flags.png">
+          <p class="pargraphheader">¡Todas las ajetas de credito!</p>
+          <img class="imageheader" src="./images/guarantee-certificate.png">
+          <p class="pargraphheader">¡Todas las ajetas de credito!</p>
+        </div>
+      </div>
+    -->
+     
+
+      <!-----------------banner end-------------------->
+
+      <!-----------------main-------------------->
 
       <section class="main">
         <div class="main__card">
@@ -93,7 +95,7 @@
 
         <div class="main__card">
           <img
-            src="./images/Fotos 9 unidades/20200520_161247.jpg"
+            src="https://http2.mlstatic.com/D_NQ_NP_2X_959884-MLA49219735603_022022-F.webp"
             class="main__images"
           />
           <span class="main__price">$5.2000.000</span>
@@ -110,7 +112,7 @@
 
         <div class="main__card">
           <img
-            src="./images/Fotos 9 unidades/20200520_161247.jpg"
+            src="https://http2.mlstatic.com/D_NQ_NP_751307-MLA49219991944_022022-O.webp"
             class="main__images"
           />
           <span class="main__price">$5.2000.000</span>
@@ -127,7 +129,7 @@
 
         <div class="main__card">
           <img
-            src="./images/Fotos 9 unidades/20200520_161247.jpg"
+            src="https://http2.mlstatic.com/D_NQ_NP_882492-MLA53606654635_022023-O.webp"
             class="main__images"
           />
           <span class="main__price">$5.2000.000</span>
@@ -145,38 +147,36 @@
       </section>
     </main>
 
-    <article>
-      <h1 class="main__title main__title--article">Nautica Torres</h1>
-      <p class="main__paragraph">Empresa Familiar</p>
-      <button class="main__button main__button--article"><a href="./la nautica.html">Trayectoria...</a></button>
-      <iframe
-        class="main__video"
-        width="860"
-        height="484"
-        src="https://www.youtube.com/embed/xFq563uSkIw"
-        title="nikita 470 open nautica torres"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </article>
+    <!-----------------main end-------------------->
 
-     <div class="container__catalogue">
-       <section class="catalogue">
-       <img src="./images/328215085_2196507027216760_6962918473802349288_n.jpg" alt="" class="catalogue__image">
-       <!---<h1 class="main__title main__title--catalogue ">VENTA DE LANCHAS, CRUCEROS, GOMONES Y MOTORES.</h1>--->
-       <button class="main__button main__button--article"><a href="./catalogo.html">Ver catálogo</a></button>
-       </section>
+    <section class="bannerparallaxindex" >
+    </section>
   
-       <section class="catalogue">
-        <img src="./images/328983408_711836343731198_3626277650579209322_n.jpg" alt="" class="catalogue__image">
-        <!---<h1 class="main__title main__title--catalogue ">SERVICE NÁUTICO GENERAL.</h1>--->
-        <button class="main__button main__button--article"><a href="./servicios.html">Ver servicios</a></button>
-       </section>
 
-     </div>
+    <article class="article">
+      <p class="main__paragraph" data-aos="fade-left">Empresa Familiar</p>
+      <button class="main__button main__button--article"><a href="./la nautica.html">Trayectoria...</a></button>
+      <div class="content_container">
+       <div class="content">
+        <div class="container_paragraph">
+          <P class="content_paragraph" data-aos="fade-down-right">NAUTICA TORRES equipado con última tecnología y única en el país para brindar el mejor servicio a nuestros clientes</P>
+        </div>
+        <iframe class="iframe_video" width="560" height="400" src="https://www.youtube.com/embed/kMPuWeozyAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+      </div>
+      
+    </article>
+  
+  
+
      
-     <div class="container_mercadolibre"><a href="https://vehiculos.mercadolibre.com.ar/_CustId_401819024"><img class="img-fluid" src="http://nauticatorres.com.ar/images/mercadolibre_thumbnail_522x300.png" alt=""></a></div>
+     
+     <!--<div class="container_mercadolibre">
+      <a href="https://vehiculos.mercadolibre.com.ar/_CustId_401819024">
+       <img class="img-fluid" src="http://nauticatorres.com.ar/images/mercadolibre_thumbnail_522x300.png" alt="hh">
+      </a>
+     </div>
+    -->
     
      <footer class="footer">
       
@@ -234,11 +234,17 @@ Copyright  Nautica Torres 2020 Derechos Reservados</a>
       
     
 </footer>
-<a href="https://api.whatsapp.com/send?phone=+5491130618732" class="btn-wsp" target="_blank">
+<!--<a href="https://api.whatsapp.com/send?phone=+5491130618732" class="btn-wsp" target="_blank">
   <i class="fa fa-whatsapp icono"></i>
 </a>
+-->
 
   </body>
   <script src="./index.js"></script>
   <script src="./hamburguer.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./banner.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

@@ -1,0 +1,224 @@
+/*--------------------queries--------------------*/
+@media (min-width: 768px) {
+    body {
+      width: 100vw;
+    }
+    
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 0px;
+    }
+    .navbar__images {
+      width: 100%;
+      height: auto;
+    }
+    .hero__links {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 20px;
+      width: 80%;
+      margin: 0px auto;
+    }
+   
+    .main__images {
+      width: 260px;
+      height: auto;
+    }
+    
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      height: 500px;
+      gap: 20px;
+    }
+    .footer__title {
+      margin: 0px;
+    }
+    .container__form {
+      display: grid;
+      grid-template-columns:  1fr;
+      padding: 40px;
+      gap: 10px;
+    }
+    .form__card {
+      width: 40vw;
+    }
+    .container__nosotros{
+      height: auto;
+    }
+    .wrapper{
+      display: flex;
+      justify-content: center;
+      
+    }
+    .video{
+      flex-direction: row;
+    }
+    .carousel {
+      width: 20vw; /* Ajusta el ancho según tus necesidades */
+      height: auto; /* Ajusta la altura según tus necesidades */
+      overflow:hidden;
+      margin: 0px auto;
+    }
+    
+   
+    
+  }
+  
+  
+  
+  
+
+  
+  @media (min-width: 1024px) {
+    body {
+      width: 100vw;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      
+    }
+    .main__images {
+      width: 100%;
+      height: auto;
+    }
+    .hero {
+      margin: 96px 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .hero__links {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 0px;
+    }
+    .navbar__images {
+      width: 100%;
+      height: auto;
+    }
+  
+    .main__title {
+      text-align: center;
+    }
+  
+    .footer {
+      padding: 120px;
+    }
+    .navbar__links {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .navbar__links a {
+      font-weight: bold;
+      color: #0000007e;
+    }
+  
+    .navbar__hamburguer {
+      display: none;
+    }
+  
+    .navbar {
+      display: flex;
+      align-items: center;
+    }
+    
+    
+    .container_mercadolibre{
+      width: 40vw;
+      height: auto;
+      margin: 0px auto;
+    }
+    .container__nosotros{
+      height: 700px;
+      padding: 80px;
+    }
+  
+    .img__nautica{
+      height: 100vh;
+    }
+    .paragraph__nosotros{
+      width: 60%;
+      margin: 0px auto;
+    }
+    a.link__comentarios{
+      display: flex;
+      justify-content: center;
+      
+    }
+    .wrapper{
+      
+      display: flex;
+      justify-content: center;
+    }
+    .main__services{
+      height: 100vh;
+      margin: 0px auto;
+    }
+  
+    .main__services ul {
+      text-align: center;
+      font-weight: 600;
+    }
+    .list__catalogo li a{
+      font-size: 1.2rem;
+    }
+    .main_home{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-around;
+      height: 500px;
+    }
+    .container_home{
+      padding: 80px;
+    }
+    .content_container{
+      width: 100vw;
+      height: 600px;
+      background: #e7f0f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content{
+      width: 80vw;
+      height: 450px;
+      background: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .container_paragraph{
+      width: 50%;
+      height: 400px;
+      font-size: 40px;
+      font-weight:bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content_paragraph{
+      color: #000000;
+      font-weight: 600;
+      
+    }
+    .circle{
+      width: 160px;
+      height: 160px
+    }
+    .paragraphsevice{
+      font-size: 1.2rem;
+    }
+  
+     
+  }
+  
